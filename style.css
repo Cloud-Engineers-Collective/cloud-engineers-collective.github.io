@@ -1,0 +1,20 @@
+html {
+    background-color: #C1ECFA;
+}
+
+article {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: stretch;
+    margin: auto 5em;
+    flex-flow: wrap;
+}
+
+section {
+    width: 25em;
+}
+
+h1,
+p {
+    color: #3D3C3A;
+}
