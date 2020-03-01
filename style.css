@@ -1,5 +1,7 @@
 html {
     background-color: #C1ECFA;
+    background-image: url(clouds.jpg);
+    background-blend-mode: color-burn;
 }
 
 article {
@@ -12,6 +14,11 @@ article {
 
 section {
     width: 25em;
+    margin: 1em auto;
+}
+
+body>h1 {
+    text-align: center;
 }
 
 h1,
