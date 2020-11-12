@@ -1,5 +1,5 @@
 html {
-    background-color: #C1ECFA;
+    background-color: rgb(159, 207, 236);
     background-image: url(clouds.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -14,19 +14,24 @@ article {
     align-items: stretch;
     margin: auto auto;
     flex-flow: wrap;
+    color: #3D3C3A;
+
 }
 
 section {
     width: 25em;
     margin: 1em 1em;
     padding: 0 1em;
-    background-color: #C1ECFA;
+    background-color: blanchedalmond;
 }
 
 h1 {
     font-family: 'Fira Sans Condensed', sans-serif;
     font-weight: 600;
-    color: #3D3C3A;
+}
+
+body {
+    margin: 0px;
 }
 
 body>h1 {
@@ -36,6 +41,14 @@ body>h1 {
 
 p {
     font-family: 'Merriweather', serif;
-    color: #3D3C3A;
     text-align: justify;
+}
+
+.topline {
+    width: 100%;
+    height: 0.5em;
+    display: block;
+    top: 0;
+    position: fixed;
+    background-color: cornflowerblue;
 }
